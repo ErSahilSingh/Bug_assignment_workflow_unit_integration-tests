@@ -1,0 +1,63 @@
+﻿node : PASS __tests__/unit
+/issueController.unit.test
+.js
+At line:1 char:1
++ node "node_modules/jest/
+bin/jest.js" 
+--testPathPattern=unit 
+--runInBa ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (P  
+  ASS __tests__/...er.u   
+ nit.test.js:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+  createIssue
+    ΓêÜ should create an 
+issue and return 201 
+status (4 ms)
+    ΓêÜ should return 400 
+if save fails (validation 
+error) (1 ms)
+  getAllIssues
+    ΓêÜ should return all 
+issues with status 200 (1 
+ms)
+    ΓêÜ should return 500 
+if database throws an 
+error
+  updateIssue
+    ΓêÜ should update 
+issue status and return 
+200
+    ΓêÜ should return 404 
+if issue not found
+  deleteIssue
+    ΓêÜ should delete the 
+issue and return success 
+message (1 ms)
+    ΓêÜ should return 404 
+if issue does not exist 
+(1 ms)
+
+Test Suites: 1 passed, 1 
+total
+Tests:       8 passed, 8 
+total
+Snapshots:   0 total
+Time:        1.115 s, 
+estimated 2 s
+Ran all test suites 
+matching /unit/i.
+Force exiting Jest: Have 
+you considered using 
+`--detectOpenHandles` to 
+detect async operations 
+that kept running after 
+all tests finished?
